@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardproductos{
+    border: 1px solid #CED0D1;
+    width: 34vw;
+    border-end-start-radius: 15px;
+    border-end-end-radius: 15px;
+}
+
+.imgproducto{
+    background-image: url(../img/utensilios.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: auto;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: .8rem;
+    cursor: pointer;
+    /* transform: all .5s; */
+}
+
+.cardproductos:hover{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.masimgdos{
+    padding: .3rem .5rem;
+    border: 1px solid #CED0D1;
+    border-radius: .5rem;
+    color: white;
+    background-color: #CED0D1;
+    margin: .5rem;
+}
+
+.infoproducto{
+    padding: 1rem 0 1.2rem 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulomasinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconinfo{
+    block-size: 1.6rem;
+    cursor: pointer;
+}
+
+.btncompra{
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #0087FF;
+    color: white;
+    padding: .8rem 2rem;
+    border: 1px solid #0087FF;
+    border-radius: .5rem;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.btnmg{
+    color: gray;
+    background-color: white;
+    border: 1px solid #CED0D1;
+    padding: .8rem 1rem;
+    border-radius: .5rem;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.iconmg{
+    padding-right: .3rem;
+    cursor: pointer;
+}
+
+.iconmg:hover{
+    color: red;
+}
+
+.btncompartir{
+    color: gray;
+    background-color: white;
+    border: 1px solid #CED0D1;
+    padding: .8rem 1rem;
+    border-radius: .5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transition: all .5s;
+    cursor: pointer;
+    
+}
+.imgshare{
+    block-size: 16px;
+    padding-right: .3rem;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    padding-top: .8rem;
+}
+
+.subtitulo{
+    color: gray;
+    line-height: 1.3rem;
+}
+
+.btncompra:hover{
+    transform: scale(1.1);
+}
+
+.btncompartir:hover{
+    transform: scale(1.1);
+}
+
+.btnmg:hover{
+    transform: scale(1.1);
+}
